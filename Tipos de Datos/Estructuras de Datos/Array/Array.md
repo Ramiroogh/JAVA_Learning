@@ -35,6 +35,39 @@ En este ejemplo, estamos creando un array de enteros llamado numbers con un tama
 Al array, hay que asignarle el tamaño que va a tener.
 
 + Es importante recordar que debes asegurarte de no acceder a un índice fuera del rango del array, ya que esto causaría una excepción en tiempo de ejecución (por ejemplo, ArrayIndexOutOfBoundsException).
++ Un array de tipo Object puede contener cualquier tipo de referencia.
+
+## Forma Literal
+Hasta ahora hemos visto la forma "clásica" de crear un objeto array utilizando la palabra clave new, por ejemplo:
+``` java
+int[] numeros = new int[6];
+numeros[0] = 1;
+numeros[1] = 2;
+numeros[2] = 3;
+numeros[3] = 4;
+numeros[4] = 5;
+```
+Sin embargo, también existe una forma literal. Literal, en este contexto, significa usar valores directamente, menos burocrático, más directo. Vea la diferencia:
+``` java
+int[] refs = {1,2,3,4,5};
+```
++ Usamos las llaves {} para indicar que es un array y los valores ya están declarados dentro de las llaves
+
+### Conclusión
+Un array es una estructura de datos y se usa para almacenar elementos (valores primitivos o referencias).
+Los arrays usan corchetes ([]) sintácticamente.
+¡Los arrays tienen un tamaño fijo!.
+¡Un array también es un objeto!.
+Los arrays son zero-based(el primer elemento se encuentra en la posición 0).
+Un array siempre se inicializa con los valores padron.
+Al acceder a una posición no válida recibimos la excepción ArrayIndexOutOfBoundException.
+Las matrices tienen un atributo length para conocer el tamaño.
+La forma literal de crear un array, utilizando llaves {}.
+
++ Hablaremos un poco más sobre arrays (de tipo Object) y veremos cómo funciona este parámetro del método main.
+
+
+
 
 ### Otras Estructuras
 Además de los arrays, Java ofrece una variedad de estructuras de datos más complejas y versátiles que se encuentran en el paquete java.util. Estas estructuras de datos proporcionan funcionalidades específicas y flexibilidad para abordar diferentes escenarios de programación. Algunas de las estructuras de datos más comunes en Java son:
