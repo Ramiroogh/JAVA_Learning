@@ -20,3 +20,5 @@ Cómo usar los métodos size, get, remove.
 Cómo usar foreach para iterar a través de ArrayList.
 Que los generics parametrizan clases
 Que en el caso de ArrayList podemos definir el tipo de los elementos mediante generics.
+
++ LinkedList y ArrayList son dos implementaciones diferentes de la interfaz List. LinkedList es una lista doblemente "enlazada" y ArrayList representa un array con redimensión de tamaño dinámico.
