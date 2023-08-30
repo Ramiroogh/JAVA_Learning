@@ -1,0 +1,1 @@
+Una lista no puede aceptar valores Primitivos como Int, solo puede aceptar Objetos.
