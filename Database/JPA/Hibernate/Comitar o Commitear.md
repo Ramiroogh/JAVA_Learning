@@ -1,0 +1,2 @@
+¿Cuándo debemos iniciar y comitar una transacción al persistir una unidad?
++ Al realizar operaciones de escrita en la base de datos, como insert, update y delete, Operaciones de escrita exigen el uso de transacciones.

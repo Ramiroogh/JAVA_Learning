@@ -1,0 +1,1 @@
+Esto nos sirve para definir un numero limitado de tipos de elementos a guardar
